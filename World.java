@@ -3,12 +3,19 @@ public class World{
 	public static void main(String [] args){
 	Scanner scanner = new Scanner(System.in);
 
-	System.out.print("what is your name");
-	String kim = scanner.nextLine();
+	System.out.println("what is your name");
+	String name = scanner.nextLine();
+
+	System.out.println("what is your age");
+	int age = scanner.nextInt();
 
 
-	//System.out.println(" hello " + name + ", welcom to my coding challenges," + age + " :);
-	System.out.printf(" %s %s " hello  + name + ",welcom to my coding challenges," + age + ")
+	
+	
+
+
+	System.out.println(" hello " + name + ", welcome to my coding challenges, you are age" + age );
+	
 	
 
 	
